@@ -12,6 +12,7 @@ DROP TABLE IF EXISTS perpinv.stock_stk3_tx;
 DROP TABLE IF EXISTS perpinv.stock_stk3_bday_tx;
 
 DROP TABLE IF EXISTS perpinv.stk3_bday_tx;
+DROP TABLE IF EXISTS perpinv.stk3_tx;
 
 CREATE TABLE IF NOT EXISTS perpinv.pmix_stk3_tx(
 	is_no LONG,
@@ -156,4 +157,20 @@ CREATE TABLE IF NOT EXISTS perpinv.stk3_bday_tx(
               path='hdfs:///user/root/PerpInv/stk3_bday_tx.csv');
 
 select * from perpinv.stk3_bday_tx limit 1;
+
+
+CREATE TABLE IF NOT EXISTS perpinv.stk3_tx(
+	is_no LONG,
+	siteid LONG,
+	bday DATE,
+	pponumber STRING,
+	qty DOUBLE,
+        tx_type_cd STRING
+	)
+    USING CSV  
+    OPTIONS ( header='false',
+              dateFormat="yyyy-MM-dd",
+              path='hdfs:///user/root/PerpInv/stk3_tx.csv');
+
+select * from perpinv.stk3_tx limit 1;
 
