@@ -30,3 +30,56 @@ object processtx {
   }
 }
 
+
+object processbdaytx {
+  def main(args: Array[String]) = {
+    val spark  = SparkSession.builder()
+			.appName("PerpInv")
+			.enableHiveSupport()
+			.getOrCreate()
+
+    println("Processing BDAY TX ..." +  DateTimeFormatter
+		.ofPattern("yyyy-MM-dd HH:mm:ss")
+		.format(LocalDateTime.now))
+
+    val bday_tx_df = spark.sql(" select 'INVADJ' tx_type_cd, siteid, bday, is_no  from perpinv.invadj_stk3_bday_tx union select 'DELI' tx_type_cd, siteid, bday, is_no from perpinv.deli_stk3_bday_tx union select 'PMIX' tx_type_cd, siteid, bday, is_no from perpinv.pmix_stk3_bday_tx union select 'RESET' tx_type_cd, siteid, bday, is_no from perpinv.reset_stk3_bday_tx union select 'STOCK' tx_type_cd, siteid, bday, is_no from perpinv.stock_stk3_bday_tx")
+
+    bday_tx_df.write
+	.format("csv")
+	.mode("overwrite")
+	.save("hdfs:///user/root/PerpInv/stk3_bday_tx.csv")
+
+    println("Processing end BDAY TX ..." +  DateTimeFormatter
+		.ofPattern("yyyy-MM-dd HH:mm:ss")
+		.format(LocalDateTime.now))
+
+    spark.stop()
+  }
+}
+
+object processbdaystatus {
+  def main(args: Array[String]) = {
+    val spark  = SparkSession.builder()
+			.appName("PerpInv")
+			.enableHiveSupport()
+			.getOrCreate()
+
+    println("Processing BDAY STATUS ..." +  DateTimeFormatter
+		.ofPattern("yyyy-MM-dd HH:mm:ss")
+		.format(LocalDateTime.now))
+
+    val bday_status_df = spark.sql(" select siteid, bday, max(if(tx_type_cd = 'PMIX', is_no, 0)) pmix_is_no, max(if(tx_type_cd = 'DELI', is_no, 0)) deli_is_no, max(if(tx_type_cd = 'INVADJ', is_no, 0)) invadj_is_no, max(if(tx_type_cd = 'RESET', is_no, 0)) reset_is_no, max(if(tx_type_cd = 'STOCK', is_no, 0)) stock_is_no from perpinv.stk3_bday_tx group by siteid, bday order by siteid, bday")
+
+    bday_status_df.write
+	.format("csv")
+	.mode("overwrite")
+	.save("hdfs:///user/root/PerpInv/stk3_bday_status.csv")
+
+    println("Processing end BDAY STATUS ..." +  DateTimeFormatter
+		.ofPattern("yyyy-MM-dd HH:mm:ss")
+		.format(LocalDateTime.now))
+
+    spark.stop()
+  }
+}
+

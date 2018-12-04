@@ -174,3 +174,19 @@ CREATE TABLE IF NOT EXISTS perpinv.stk3_tx(
 
 select * from perpinv.stk3_tx limit 1;
 
+CREATE TABLE IF NOT EXISTS perpinv.stk3_bday_status(
+	siteid LONG,
+	bday DATE,
+	pmix_is_no long,
+	deli_is_no long,
+	invadj_is_no long,
+	reset_is_no long,
+	stock_is_no long
+	)
+    USING CSV  
+    OPTIONS ( header='false',
+              dateFormat="yyyy-MM-dd",
+              path='hdfs:///user/root/PerpInv/stk3_bday_status.csv');
+
+select * from perpinv.stk3_bday_status limit 1;
+
