@@ -2,9 +2,12 @@
 ## Summary
 This is a simple demonstration of Batch processing in Spark using Scala language and hadoop HDFS file system. 
 
-## Setup Spark Cluster
 ### About Spark
 ![](images/Page1.png)
+![](images/Page2.png)
+![](images/Page3.png)
+![](images/Page4.png)
+![](images/Page5.png)
 
 ### Standalone Spark Install
 <screenshot>
