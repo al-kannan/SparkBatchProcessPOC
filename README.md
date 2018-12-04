@@ -3,6 +3,9 @@
 This is a simple demonstration of Batch processing in Spark using Scala language and hadoop HDFS file system. 
 
 ## Setup Spark Cluster
+### About Spark
+![alt text](https://github.com/al-kannan/SparkBatchProcessPOC/images/Page1.png "About Spark")
+
 ### Standalone Spark Install
 <screenshot>
 
