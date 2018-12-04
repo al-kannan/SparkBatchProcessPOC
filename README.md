@@ -4,8 +4,7 @@ This is a simple demonstration of Batch processing in Spark using Scala language
 
 ## Setup Spark Cluster
 ### About Spark
-![alt text](https://github.com/al-kannan/SparkBatchProcessPOC/tree/master/images/Page1.png "About Spark")
-![Screenshot]\(https://github.com/al-kannan/SparkBatchProcessPOC/tree/master/images/Page1.png)
+![About Spark](https://github.com/al-kannan/SparkBatchProcessPOC/tree/master/images/Page1.png)
 
 ### Standalone Spark Install
 <screenshot>
