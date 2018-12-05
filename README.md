@@ -52,6 +52,19 @@ libraryDependencies ++= Seq(
 Create source in /user/hadoop/sbt_workspace/perpinv/src/main/scala as :
 ![](images/Page8.png)
 
+To package JAR files using SBT:
+```
+sbt package
+```
+
+To submit it to Spark
+```
+spark-submit --master yarn --class com.poc.examples.csvtoparquet target/scala-2.11/spark-perpinv-app_2.11-0.1.jar
+```
+
+Hadoop File System Screen Shot
+![](images/Page9.png)
+
 
 
 ## Create Spark SQL Metadata for transaction files
