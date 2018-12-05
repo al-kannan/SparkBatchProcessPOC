@@ -78,12 +78,16 @@ Hadoop File System Screen Shot
 
 | Process PMIX   | [processpmix.scala](source_code/processpmix.scala) |
 | -------------- | -------------------------------------------------- |
+
 | Process DELI   | [processdeli.scala](source_code/processdeli.scala) |
 | -------------- | -------------------------------------------------- |
+
 | Process INVADJ | [processinvadj.scala](source_code/processinvadj.scala) |
 | -------------- | -------------------------------------------------- |
+
 | Process STOCK | [processstock.scala](source_code/processstock.scala) |
 | -------------- | -------------------------------------------------- |
+
 | Process RESET | [processreset.scala](source_code/processreset.scala) |
 | -------------- | -------------------------------------------------- |
 
