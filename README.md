@@ -77,14 +77,17 @@ Spark Table Metadata
 
 ## Create Transaction Header and Transaction Details files in CSV
 
-|Process PMIX   | [processpmix.scala](source_code/processpmix.scala) |
+|Process | [Source Code |
 | -------------- | -------------------------------------------------- |
+|Process PMIX   | [processpmix.scala](source_code/processpmix.scala) |
 | Process DELI   | [processdeli.scala](source_code/processdeli.scala) |
 | Process INVADJ | [processinvadj.scala](source_code/processinvadj.scala) |
 | Process STOCK | [processstock.scala](source_code/processstock.scala) |
 | Process RESET | [processreset.scala](source_code/processreset.scala) |
 
 ## Create Spark SQL Metadata for transaction Header and Details files
+| TRX DDL | [trxddl.sql](source_code/trxddl.sql) |
+| -------------- | --------------------------------- |
 
 ## Bring Stg Stck PPO (End Results) file for merging
 
