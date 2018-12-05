@@ -68,6 +68,11 @@ Hadoop File System Screen Shot
 
 
 ## Create Spark SQL Metadata for transaction files
+
+| STG DDL | [stageddl.sql](source_code/stageddl.sql) |
+| -------------- | --------------------------------- |
+
+
 Lessons Learned
 	- Metadata can be created and managed in local file system
 		or it can be managed using Hive metastore
