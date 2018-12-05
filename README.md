@@ -9,41 +9,8 @@ This is a simple demonstration of Batch processing in Spark using Scala language
 ![](images/Page4.png)
 ![](images/Page5.png)
 
-### Standalone Spark Install
-<screenshot>
-
 ### Spark Cluster
-<screenshot>
-
-### Lessons Learned
-<screenshot>
-	- What is Spark
-		- Distributed Processing Engine
-		- Memory based processing model
-		- Our code is abstracted from distributed processing
-		- Lazy processing model
-	- What is not Spark
-		- It is not a database, no transactions
-		- It is not for storage systems
-		- Not good for too many sessions
-	- Spark Architecture
-		- Driver and Executor
-		- Jar file is deployed to Executor to run it on subset of data
-		- Shuffle is done by the engine
-		- RDD is the code component to hold data and instruction details
-		- Task and Stages and managed by Spark engine	
-			(Directed Acyclic Graph)
-	- Spark Resource Managers (Yarn and Mesos)
-	- Spark Connecters for data sources
-	- Spark does not need HDFS all though use HIVE for metastore
-	- Spark can be installed on your laptop as standalone
-	- Spark has intractive mode and batch mode
-		- Intractive mode include 
-			Spark-Shell (Scala)
-			PySpark (Python) 
-			Spark-SQL
-			Note books (Jupyter and Zeplin)
-		- spark-submit using Yarn
+![](images/Pict1.png)
 
 ## Transaction Files and Master Data Files
 ### Staging the files
@@ -57,6 +24,18 @@ This is a simple demonstration of Batch processing in Spark using Scala language
 		-- Data Sets APIs
 		-- Spark-SQL table definition
 	- How to install SBT and use it
+Sign into master node as hadoop user
+From home directory run commends
+
+sudo curl https://bintray.com/sbt/rpm/rpm | sudo tee /etc/yum.repos.d/bintray-sbt-rpm.repo
+sudo yum install sbt
+sudo su
+mkdir sbt_workspace
+cd sbt_workspace
+mkdir perpinv
+cd perpinv
+sbt
+
 
 ## Create Spark SQL Metadata for transaction files
 Lessons Learned
