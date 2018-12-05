@@ -18,6 +18,7 @@ All cloud providers will offer automated installation and configuration options
 ![](images/Pict2.png)
 ### Converting into Parquet 
 [csvtoparquet.scala](source_code/csvtoparquet.scala)
+![](images/csvtoparquet.scala)
 <code insert>
 ### Lessons Learned
 	- Spark supports many different file formats
