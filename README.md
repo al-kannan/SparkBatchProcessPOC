@@ -23,7 +23,8 @@ All cloud providers will offer automated installation and configuration options
 ![](images/Page6.png)
 ![](images/Page7.png)
 
-	- How to install SBT and use it
+## How to install SBT and use it
+'''
 Sign into master node as hadoop user
 From home directory run commends
 
@@ -35,7 +36,7 @@ cd sbt_workspace
 mkdir perpinv
 cd perpinv
 sbt
-
+'''
 
 ## Create Spark SQL Metadata for transaction files
 Lessons Learned
