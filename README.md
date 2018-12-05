@@ -109,5 +109,8 @@ Output from the Metadata
 | -------------- | -------------------------------------------------- |
 |Process STG STCK PPO   | [processstgstckppo.scala](source_code/processstgstckppo.scala) |
 
+Functional Creation and Deployment
+![](images/Page15.png)
+
 Final Output
 ![](images/Page14.png)
