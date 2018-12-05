@@ -108,3 +108,6 @@ Output from the Metadata
 |Process | Source Code |
 | -------------- | -------------------------------------------------- |
 |Process STG STCK PPO   | [processstgstckppo.scala](source_code/processstgstckppo.scala) |
+
+Final Output
+![](images/Page14.png)
