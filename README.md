@@ -72,13 +72,20 @@ Hadoop File System Screen Shot
 | STG DDL | [stageddl.sql](source_code/stageddl.sql) |
 | -------------- | --------------------------------- |
 
+![](images/Page10.png)
 
-Lessons Learned
-	- Metadata can be created and managed in local file system
-		or it can be managed using Hive metastore
-	- You can also implement temporary views within a spark context
-	
 ## Create Transaction Header and Transaction Details files in CSV
+
+| Process PMIX   | [processpmix.scala](source_code/processpmix.scala) |
+| -------------- | -------------------------------------------------- |
+| Process DELI   | [processdeli.scala](source_code/processdeli.scala) |
+| -------------- | -------------------------------------------------- |
+| Process INVADJ | [processinvadj.scala](source_code/processinvadj.scala) |
+| -------------- | -------------------------------------------------- |
+| Process STOCK | [processstock.scala](source_code/processstock.scala) |
+| -------------- | -------------------------------------------------- |
+| Process RESET | [processreset.scala](source_code/processreset.scala) |
+| -------------- | -------------------------------------------------- |
 
 ## Create Spark SQL Metadata for transaction Header and Details files
 
