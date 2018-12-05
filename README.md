@@ -97,4 +97,4 @@ Spark Table Metadata
 
 |Process | Source Code |
 | -------------- | -------------------------------------------------- |
-|Process STG STCK PPO   | [processstgstockppo.scala](source_code/processstgstockppo.scala) |
+|Process STG STCK PPO   | [processstgstckppo.scala](source_code/processstgstckppo.scala) |
