@@ -77,7 +77,7 @@ Spark Table Metadata
 
 ## Create Transaction Header and Transaction Details files in CSV
 
-| Process PMIX   | [processpmix.scala](source_code/processpmix.scala) |
+|Process PMIX   | [processpmix.scala](source_code/processpmix.scala) |
 | -------------- | -------------------------------------------------- |
 | Process DELI   | [processdeli.scala](source_code/processdeli.scala) |
 | Process INVADJ | [processinvadj.scala](source_code/processinvadj.scala) |
