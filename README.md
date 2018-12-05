@@ -20,11 +20,6 @@ All cloud providers will offer automated installation and configuration options
 | CSV TO PARQUET | [csvtoparquet.scala](source_code/csvtoparquet.scala) |
 | -------------- | ---------------------------------------------------- |
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
 ### Lessons Learned
 	- Spark supports many different file formats
 	- Spark supports four different API methods
