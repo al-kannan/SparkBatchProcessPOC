@@ -75,11 +75,15 @@ Hadoop File System Screen Shot
 Spark Table Metadata
 ![](images/Page10.png)
 
+Output from the Metadata
+![](images/Page11.png)
+
+
 ## Create Transaction Header and Transaction Details files in CSV
 
 |Process | Source Code |
 | -------------- | -------------------------------------------------- |
-|Process PMIX   | [processpmix.scala](source_code/processpmix.scala) |
+| Process PMIX   | [processpmix.scala](source_code/processpmix.scala) |
 | Process DELI   | [processdeli.scala](source_code/processdeli.scala) |
 | Process INVADJ | [processinvadj.scala](source_code/processinvadj.scala) |
 | Process STOCK | [processstock.scala](source_code/processstock.scala) |
