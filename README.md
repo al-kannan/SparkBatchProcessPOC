@@ -93,9 +93,15 @@ Output from the Metadata
 | TRX DDL | [trxddl.sql](source_code/trxddl.sql) |
 | -------------- | --------------------------------- |
 
+Output from the Metadata
+![](images/Page12.png)
+
 ## Create Spark SQL Metadata for results files
 | STG STCK PPO DDL | [sspddl.sql](source_code/sspddl.sql) |
 | -------------- | --------------------------------- |
+
+Output from the Metadata
+![](images/Page13.png)
 
 ## Run Final results file transformation
 
