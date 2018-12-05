@@ -17,9 +17,7 @@ All cloud providers will offer automated installation and configuration options
 ### Staging the files
 ![](images/Pict2.png)
 ### Converting into Parquet 
-[csvtoparquet.scala](source_code/csvtoparquet.scala)
-![](images/csvtoparquet.scala)
-<code insert>
+| CSV TO PARQUET | [csvtoparquet.scala](source_code/csvtoparquet.scala) |
 ### Lessons Learned
 	- Spark supports many different file formats
 	- Spark supports four different API methods
