@@ -15,7 +15,9 @@ All cloud providers will offer automated installation and configuration options
 
 ## Transaction Files and Master Data Files
 ### Staging the files
+![](images/Pict2.png)
 ### Converting into Parquet 
+[csvtoparquet.scala](source_code/csvtoparquet.scala)
 <code insert>
 ### Lessons Learned
 	- Spark supports many different file formats
