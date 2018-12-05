@@ -31,7 +31,12 @@ From home directory run commends
 sudo curl https://bintray.com/sbt/rpm/rpm | sudo tee /etc/yum.repos.d/bintray-sbt-rpm.repo
 sudo yum install sbt
 ```
-Configuration File (build.sbt)
+
+```
+Directory Structure : /user/hadoop/sbt_workspace/perpinv/src/main/scala
+```
+
+Configuration File at (/user/hadoop/sbt_workspace/perpinv/build.sbt)
 ```
 name := "spark perpinv App"
 version := "0.1"
@@ -43,6 +48,11 @@ libraryDependencies ++= Seq(
 "org.apache.spark" %% "spark-core" % sparkVersion,
 "org.apache.spark" %% "spark-sql" % sparkVersion)
 ```
+
+Create source in /user/hadoop/sbt_workspace/perpinv/src/main/scala as :
+![](images/Page8.png)
+
+
 
 ## Create Spark SQL Metadata for transaction files
 Lessons Learned
