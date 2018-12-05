@@ -10,6 +10,7 @@ This is a simple demonstration of Batch processing in Spark using Scala language
 ![](images/Page5.png)
 
 ### Spark Cluster
+All cloud providers will offer automated installation and configuration options
 ![](images/Pict1.png)
 
 ## Transaction Files and Master Data Files
