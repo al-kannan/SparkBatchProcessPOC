@@ -20,13 +20,9 @@ All cloud providers will offer automated installation and configuration options
 | CSV TO PARQUET | [csvtoparquet.scala](source_code/csvtoparquet.scala) |
 | -------------- | ---------------------------------------------------- |
 
-### Lessons Learned
-	- Spark supports many different file formats
-	- Spark supports four different API methods
-		-- RDD APIs
-		-- DF APIs
-		-- Data Sets APIs
-		-- Spark-SQL table definition
+![](images/Page6.png)
+![](images/Page7.png)
+
 	- How to install SBT and use it
 Sign into master node as hadoop user
 From home directory run commends
