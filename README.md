@@ -65,6 +65,22 @@ spark-submit --master yarn --class com.poc.examples.csvtoparquet target/scala-2.
 Hadoop File System Screen Shot
 ![](images/Page9.png)
 
+HDFS Name Node (Master)
+![](images/HDFS_NAME_NODE.png)
+HDFS Data Node (Slave)
+![](images/HDFS_DATA_NODE.png)
+
+YARN Resource Manager (Master)
+![](images/YARN_RESOURCE_MANAGER.png)
+YARN Node Manager (Slave)
+![](images/YARN_NODE_MANAGER.png)
+
+SPARK History Server Directed Acyclic Graph Example
+![](images/SPARK_DAG.png)
+SPARK Logical and Physical Plans
+![](images/SPARK_PLANS.png)
+Zepplin Notebook
+![](images/ZEPPELIN_NOTEBOOK.png)
 
 
 ## Create Spark SQL Metadata for transaction files
@@ -114,3 +130,4 @@ Functional Creation and Deployment
 
 Final Output
 ![](images/Page14.png)
+
