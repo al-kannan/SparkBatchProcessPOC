@@ -131,9 +131,3 @@ Functional Creation and Deployment
 Final Output
 ![](images/Page14.png)
 
-My Recent Certifications:
-![](images/Page17.png)
-
-My Next Focus Area:
-![](images/Page16.png)
-
