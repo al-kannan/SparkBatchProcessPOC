@@ -69,7 +69,7 @@ package com.poc.examples
 				StructField("unitpp",DoubleType,true)) 
                                 )
 
-/*
+
              val stock_df = spark.read
                     .format("csv")
                     .schema(stockSchema)
@@ -126,7 +126,7 @@ package com.poc.examples
                     .format("parquet")
                     .mode("overwrite")
                     .save("hdfs:///user/root/PerpInv/stg_deli.parquet")
-*/
+
                val invadj_df = spark.read
                     .format("csv")
                     .schema(invadjSchema)
@@ -144,7 +144,7 @@ package com.poc.examples
                     .format("parquet")
                     .mode("overwrite")
                     .save("hdfs:///user/root/PerpInv/stg_invadj.parquet")
-/*
+
              val reset_df = spark.read
                     .format("csv")
                     .schema(resetSchema)
@@ -196,7 +196,7 @@ package com.poc.examples
                     .format("parquet")
                     .mode("overwrite")
                     .save("hdfs:///user/root/PerpInv/stg_ppotosu.parquet")
-*/
+
             spark.stop()
         }
     }
