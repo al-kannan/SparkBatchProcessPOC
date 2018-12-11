@@ -4,6 +4,7 @@ This is a simple demonstration of Batch processing in Spark using Scala language
 
 ### Attribution
 ![](images/Page18.png)
+![](images/Page19.png)
 
 ### About Spark
 ![](images/Page1.png)
