@@ -3,7 +3,6 @@
 This is a simple demonstration of Batch processing in Spark using Scala language and hadoop HDFS file system. 
 
 ### Attribution
-![](images/Page18.png)
 ![](images/Page19.png)
 
 ### About Spark
